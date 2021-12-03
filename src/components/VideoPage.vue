@@ -28,7 +28,7 @@
 			<main class="content-container">
 				<div class="content" v-for="i in filteredListItems" v-bind:key="i.id">
 					<div class="contentSpace">
-						<div class="notificaion">
+						<div class="notification">
 							{{ i.rating }}
 						</div>
 					</div>

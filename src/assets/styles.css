@@ -113,7 +113,7 @@ select {
   width: 90%;
 }
 
-.notification {
+.contentBoxNotification .notification {
   display: block;
   background-color: #5692e8;
   padding: 1rem;
@@ -225,6 +225,9 @@ select {
 
   .contentSpace .notification {
     display: block;
+    background-color: #5692e8;
+    padding: 1rem;
+    border-radius: 20px;
     position: absolute;
     top: 1rem;
     right: 1rem;
